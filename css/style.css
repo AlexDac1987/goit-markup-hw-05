@@ -384,6 +384,7 @@ img {
   letter-spacing: 0.03em;
   text-align: center;
   color: #757575;
+  margin-bottom: 16px;
 }
 
 .team-soc-list {
@@ -408,7 +409,7 @@ img {
   width: 100%;
   height: 100%;
   border-radius: 50%;
-  transition: background color 250ms cubic-bezier(0.4, 0, 0.2, 1);
+  transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
 .team-soc-link:hover,
@@ -464,7 +465,7 @@ img {
   display: flex;
   align-items: center;
   justify-content: center;
-  transition: border 250ms cubic-bezier(0.4, 0, 0.2, 1);
+  transition: border-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
 .clients-icon-link:hover,
@@ -598,7 +599,7 @@ img {
   height: 100%;
   border-radius: 50%;
   background: rgba(255, 255, 255, 0.1);
-  transition: background 250ms cubic-bezier(0.4, 0, 0.2, 1);
+  transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
 .footer-soc-link:hover,
@@ -705,7 +706,11 @@ img {
   color: #212121;
   border: none;
   border-radius: 4px;
-  transition: all 250ms cubic-bezier(0.4, 0, 0.2, 1);
+  transition-property: box-shadow;
+  transition-property: background-color;
+  transition-property: color;
+  transition-duration: 250ms;
+  transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
 }
 
 .navi-button:hover,
@@ -713,7 +718,6 @@ img {
   color: #ffffff;
   box-shadow: 0px 3px 1px rgba(0, 0, 0, 0.1), 0px 1px 2px rgba(0, 0, 0, 0.08),
     0px 2px 2px rgba(0, 0, 0, 0.12);
-  border-radius: 4px;
 }
 
 .navi-button:hover,
@@ -749,7 +753,7 @@ img {
   background: #ffffff;
 }
 
-.examples-list:hover .examples-list-text {
+.examples-link:hover .examples-list-text {
   transform: translateY(0);
 }
 
